@@ -6,6 +6,23 @@ body {
     background: #046e68;
     width: 800px;
 }
+
+
+.sticky {
+    padding: 20px;
+    background: #808080;
+    position: sticky;
+    top: 0;
+}
+
+p{
+    font-size: 20px;
+}
+
+li{
+    font-size: 20px;
+}
+
 .gameImage{
     width: 400px;
     height: 400px;
@@ -45,4 +62,13 @@ body {
     padding: 50px;
     margin: 50px;
     font-size: 30px;
+}
+
+
+#upcomingGame {
+    font-size: 80px;
+}
+.validation{
+    font-size: 0px;
+    opacity:0;
 }
