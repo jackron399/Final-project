@@ -1,0 +1,48 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 10px;
+    color: #242424;
+    background: #046e68;
+    width: 800px;
+}
+.gameImage{
+    width: 400px;
+    height: 400px;
+}
+
+
+#logo{
+    width: 800px;
+    height: 400px;
+}
+.gameTitle{
+    font-size: 80px;
+}
+
+.gameTitle::after {
+        content: "\a";
+        white-space: pre;
+}
+
+#secondTitle::before {
+    content: "\a";
+    white-space: pre;
+}
+#companyName{
+    font-size: 80px;
+}
+#supportLink{
+    float: right;
+}
+#storeGame{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 50px;
+}
+
+#supportPage{
+    padding: 50px;
+    margin: 50px;
+    font-size: 30px;
+}
